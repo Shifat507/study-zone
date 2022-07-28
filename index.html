@@ -19,6 +19,10 @@
             color: gold;
         }
 
+        .social-icon {
+            font-size: 2em;
+            color: white
+        }
     </style>
 </head>
 
@@ -39,11 +43,11 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="#Courses">Courses</a>
                             <a class="nav-link" href="#">Deals</a>
-                            <a class="nav-link">Success</a>
-                            <a class="nav-link">About</a>
-                            <a class="nav-link">Register</a>
+                            <a class="nav-link" href="#Success"> Success</a>
+                            <a class="nav-link" href="#"> About</a>
+                            <a class="nav-link" href="#Register">Register</a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +118,7 @@
 
     <main>
         <!-- Short text start -->
-        <section class="container pb-4">
+        <section class="container pb-4" id="Courses">
             <div class="text-center">
                 <h1 class="mb-0">Discover Our Popular</h1>
                 <h1 class="mt-0">Courses</h1>
@@ -123,10 +127,11 @@
             </div>
         </section>
         <!-- Short text end -->
+
         <!-- Courses start -->
         <section class="container">
 
-            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-3 py-5">
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-3">
                 <div class="col d-flex align-items-center border rounded">
                     <img src="images/course/course-1.png" class="img-fluid rounded-start w-25" alt="...">
                     <div class="col-md-8 ps-3">
@@ -214,7 +219,7 @@
         <!-- Payment method end -->
 
         <!-- Registration Star -->
-        <section class="container py-5">
+        <section class="container py-5" id="Register">
             <div class="container g-0 border rounded p-5 bg-primary">
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-6">
@@ -252,7 +257,7 @@
         <!-- Modal end -->
 
         <!-- Successfull Students section start -->
-        <section class="container py-5">
+        <section class="container py-5" id="Success">
             <h1>Meet Our Successfull Students</h1>
             <p>You can get all the information you need from our special ex-students</p>
 
@@ -472,14 +477,37 @@
                             <img class="px-1" src="images/company/company-5.png" alt="">
                         </div>
                         <div class="col">
-                            <img class="px-1" src="images/company/company-6.png" alt="">
+                            <img class="px-" src="images/company/company-6.png" alt="">
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </section>
         <!-- Trusted companies section end -->
+
+        <!-- Footer start -->
+        <footer class="bg-dark text-light py-5">
+            <div class="text-center">
+                <div class="py-5">
+                    <h1>Study Zone</h1>
+                    <p class="my-0">Office 60, Gulshan, Dhaka, Bangladesh</p>
+                    <p>Privacy Ploicy | Terms of use</p>
+                    <div class="d-flex justify-content-center">
+                        <a href="https://www.facebook.com/programmingHero">
+                            <i class="fa-brands fa-facebook social-icon px-3"></i>
+                        </a>
+                        <a href="https://twitter.com/programminghero?lang=en">
+                            <i class="fa-brands fa-twitter social-icon px-3"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/programminghero/">
+                            <i class="fa-brands fa-linkedin social-icon px-3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
 
     </main>
 
